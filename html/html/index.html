@@ -2,17 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="js/js2.js"></script>
-    <title>mayor de edad o no</title>
+    <title>Document</title>
+    <script src="script/script.js"></script>
 </head>
-<body>
 
-        <input type="text" id="nombre" name="name" placeholder="mete el nombre"> <br><br>
-        <input type="number" id="edad" name="edad" placeholder="mete la edad"> <br><br>
 
-        <button type="submit" name="ENVIAR" onclick="edadmayor()"> ENVIAR</button>
+    <input type="text" placeholder="Introduce nombre" onblur="texto();" id="nombre">
+
+    <input type="email" placeholder="Introduce email" onblur="validar();" id="email">
+
+    <input type="radio" id="si" name="sino" onclick="si();">
+    <label for="si">Si</label>
+
+    <div id="km"></div>
+
+    <input type="radio" id="no" name="sino">
+    <label for="no">No</label>
+
+    <button onclick="comprobar();">DALEEEE</button>
 
 </body>
 </html>
